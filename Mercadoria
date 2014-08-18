@@ -1,3 +1,5 @@
+*/ produto com 00 no codigo dar 10% desconto
+    /*
 #include <iostream>
 #include <conio>
 void main ( )
