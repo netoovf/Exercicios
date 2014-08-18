@@ -1,0 +1,26 @@
+	
+#include <iostream>
+#include "professor.h"
+ 
+int main()
+{
+    Professor prof1("Matemática", "Alax");
+    std::cout << prof1.getNome() << " leciona " << prof1.getDisciplina() <<
+        ", tem " << prof1.getIdade() <<
+        " anos e mede " << prof1.getAltura() << std::endl;
+ 
+    Professor prof2("Programação", "andré");
+    std::cout << prof2.getNome() << " leciona " << prof2.getDisciplina() <<
+        ", tem " << prof2.getIdade() <<
+        " anos e mede " << prof2.getAltura() << std::endl;
+ 
+    //Professor prof3;  //se descomentado causa um erro
+ 
+    prof1.setNome("exemplo");
+    prof1.setIdade(35);
+    prof1.setAltura(1.90);
+    std::cout << prof1.getNome() << " leciona " << prof1.getDisciplina() <<
+        ", tem " << prof1.getIdade() <<
+        " anos e mede " << prof1.getAltura() << std::endl;
+ 
+}
